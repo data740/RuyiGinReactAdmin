@@ -1,0 +1,18 @@
+.panel {
+  background: var(--glass-bg-panel);
+  backdrop-filter: blur(var(--glass-blur-card));
+  -webkit-backdrop-filter: blur(var(--glass-blur-card));
+  border: 1px solid rgba(126, 200, 227, 0.12);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+}
+
+.title {
+  margin: 0 0 18px;
+  font-size: 16px;
+  color: var(--text-primary);
+  font-weight: 500;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border-subtle);
+  letter-spacing: 0.5px;
+}

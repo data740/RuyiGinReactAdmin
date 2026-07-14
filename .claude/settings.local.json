@@ -3,7 +3,9 @@
     "allow": [
       "Bash(cd:*)",
       "Bash(npm create:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "WebSearch",
+      "Bash(npm run:*)"
     ]
   }
 }

@@ -1,0 +1,54 @@
+.orbs {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.4;
+  animation: float 20s ease-in-out infinite;
+}
+
+.orb1 {
+  width: 400px;
+  height: 400px;
+  background: var(--orb-1);
+  top: -100px;
+  right: -100px;
+  animation-delay: 0s;
+}
+
+.orb2 {
+  width: 350px;
+  height: 350px;
+  background: var(--orb-2);
+  bottom: -80px;
+  left: -80px;
+  animation-delay: -5s;
+  animation-duration: 25s;
+}
+
+.orb3 {
+  width: 250px;
+  height: 250px;
+  background: var(--orb-3);
+  top: 40%;
+  left: 30%;
+  animation-delay: -10s;
+  animation-duration: 30s;
+}
+
+.orb4 {
+  width: 200px;
+  height: 200px;
+  background: var(--orb-4);
+  top: 20%;
+  right: 25%;
+  animation-delay: -15s;
+  animation-duration: 22s;
+}

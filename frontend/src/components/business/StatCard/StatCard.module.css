@@ -1,0 +1,32 @@
+.title {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--text-primary), var(--text-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+}
+
+.footer {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.up {
+  color: var(--color-success);
+  text-shadow: 0 0 8px rgba(105, 240, 174, 0.4);
+}
+
+.down {
+  color: var(--color-error);
+  text-shadow: 0 0 8px rgba(255, 82, 82, 0.4);
+}
